@@ -1,0 +1,45 @@
+div {
+	width: 50%;
+	margin: auto;
+	border: 2px solid red;
+	text-align: center;
+	height: 20%;
+	line-height: 2;
+	
+	
+}
+
+.div2{
+	height: 25%;
+}
+
+
+.div3{
+	
+	height: 115%;
+	
+}
+
+
+.div4{
+	
+	height: 65%;
+	
+}
+
+
+
+.div5{
+	
+	height: 75%;
+	
+}
+
+
+
+
+
+button {
+	margin: 15px;
+	
+}

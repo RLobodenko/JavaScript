@@ -1,0 +1,49 @@
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>document</title>
+
+<script src="14.js"></script>
+</head>
+<body>
+<form action="14-2.html" name="form1" onsubmit="return passCheck()">
+Имя:<br>
+<input type="text" name="namef" required><br>
+Фамилия:<br>
+<input type="text" name="namel"><br>
+Пол:<br>
+<input type="radio" name="gender" checked value="male">Мужской<br>
+<input type="radio" name="gender"  value="fem">Женский<br>
+<input type="radio" name="gender"  value="other">Другой<br>
+Возраст: <br>
+<select  name="age">
+<option value="kid">1-15</option>
+<option value="student">16-21</option>
+<option value="specialist">22-35</option>
+<option value="rabotyaga">36-65</option>
+</select><br>
+Ваше любимое число:<br>
+<input type="number" name="num" min="0" max="100"><br>
+<br>
+Ваш любимый цвет:<br>
+<input type="color" name="color" value="#ff00ff"><br>
+<br>
+О себе:
+<textarea cols="30" rows="20" name="textarea">...</textarea><br>
+<input type="checkbox" name="velo" checked>Есть велосипед <br>
+<input type="checkbox" name="auto">Есть автомобиль <br>
+<br>
+<br>
+Почта:<br>
+<input type=email name="email" size=40><br>
+<br>
+Пароль:<br>
+<input type="password" name="pass1"><br>
+Повторите пароль:<br>
+<input type="password" name="pass2"><br>
+
+<input type="submit" onclick="f1()">
+</form>
+<p id="out">вывод</p>
+</BODY>
+</html>

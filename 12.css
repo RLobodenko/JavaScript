@@ -1,0 +1,39 @@
+div {
+	text-align: center;
+	border: 3px solid black;
+	width: 48%;
+	height: 80%;
+	background-color: silver;
+	
+	
+}
+
+.left {
+	
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+
+
+.right {
+	
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	
+}
+
+button {
+	width: 30%;
+	height: 20%;
+	margin: 5px;
+}
+
+img {
+
+	position:absolute;
+	left: 30%;
+	top: 15%;
+}
+

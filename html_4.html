@@ -1,0 +1,61 @@
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>document</title>
+<link href="css_4.css" type="text/css" rel="stylesheet"/>
+
+<script src="js_4.js"></script>
+
+</head>
+
+<body>
+<h1 align="center">СиДжей выбирает тачку</h1>
+<div class="green" align="center">
+<strong>Цвет</strong>
+</div>
+<div class="but" align="center">
+<span><input type="radio" name="color" onclick="f1('Зелёный')">Зелёный</span>
+<span><input type="radio" name="color"  onclick="f1('Красный')">Красный</span>
+<span><input type="radio" name="color" onclick="f1('Синий')">Синий</span>
+</div>
+<div class="green" align="center">
+<strong>Марка</strong>
+</div>
+<div class="but" align="center">
+<span><input type="radio" name="mark" onclick="f2('BMW')">BMW</span>
+<span><input type="radio" name="mark" onclick="f2('LADA')">LADA</span>
+<span><input type="radio" name="mark" onclick="f2('FOLKSWAGEN')">FOLKSWAGEN</span>
+</div>
+<div class="green" align="center">
+<strong>Салон</strong>
+</div>
+<div class="but" align="center">
+<span><input type="radio" name="salon" onclick="f3('Кожа')">Кожа</span>
+<span><input type="radio" name="salon" onclick="f3('Мех')">Мех</span>
+<span><input type="radio" name="salon" onclick="f3('Синтепон')">Синтепон</span>
+</div>
+<div class="green" align="center">
+<strong>Кузов</strong>
+</div>
+<div class="but" align="center">
+<span><input type="radio"  name="kyzov" onclick="f4('Кабриолет')">Кабриолет</span>
+<span><input type="radio" name="kyzov"  onclick="f4('Седан')">Седан</span>
+<span><input type="radio"  name="kyzov" onclick="f4('Универсал')">Универсал</span>
+</div>
+<div class="green" align="center">
+<strong>Дополнительно</strong>
+</div>
+<div class="but" align="center">
+<span><input type="radio" name="dop" onclick="f5('С магнитолой')">С магнитолой</span>
+<span><input type="radio"  name="dop" onclick="f5('Без магнитолы')">Без магнитолы</span>
+</div>
+<hr>
+<div class="but" align="center">
+<button onclick="f6()">Сформировать заказ</button>
+</div>
+<div class="green" align="center">
+<h3 id="out"></h3>
+</div>
+
+</body>
+</html>

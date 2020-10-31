@@ -1,0 +1,52 @@
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>document</title>
+<link href="8.css" type="text/css" rel="stylesheet"/>
+
+<script src="8.js"></script>
+
+</head>
+
+<body>
+<div class="left">
+<p>Имя</p>
+<input id="1">
+<p>Возраст</p>
+<input id="2">
+<p>Класс</p>
+<button onclick="f1('Воин', 11.jpg)">Воин</button>
+<button onclick="f1('Маг')">Маг</button>
+<button onclick="f1('Охотник')">Охотник</button>
+<p>Профессия</p>
+<button onclick="f2('Алхимик')">Алхимик</button>
+<button onclick="f2('Кузнец')">Кузнец</button>
+<button onclick="f2('Повар')">Повар</button>
+<p>Раса</p>
+<input id="3">
+<p>Описание</p>
+<input class="op" id="4">
+
+
+
+</div>
+<div class="right">
+<h2>Аватар</h2>
+<img src="pobeda.jpg" onclick="f4('победа','pobeda.jpg')">
+<img src="akyla.jpg" onclick="f4('akyla','akyla.jpg')">
+<img src="1.jpg" onclick="f4('1','1.jpg')">
+<img src="3.jpg" onclick="f4('3','3.jpg')">
+<img src="2.jpg" onclick="f4('2','2.jpg')">
+<img src="pirat.jpg" id="5" onclick="f4('pirat','pirat.jpg')">
+
+
+
+
+
+</div>
+<div class="bot">
+<button class="but" onclick="f3()">Создать</button>
+
+</div>
+</body>
+</html>
