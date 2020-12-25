@@ -1,5 +1,5 @@
 var k=5; 
-var secret = Math.floor(Math.random()*10)+1; 
+var secret = Math.floor(Math.random()*5)+1; 
 //alert(secret); 
 
 function f4(x) {
